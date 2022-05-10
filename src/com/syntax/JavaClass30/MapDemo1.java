@@ -1,0 +1,27 @@
+package com.syntax.JavaClass30;
+
+import java.util.HashMap;
+
+public class MapDemo1 {
+    public static void main(String[] args) {
+        HashMap<String,Double> fruitMap=new HashMap<>();
+        fruitMap.put("Apple",20.0);
+        fruitMap.put("Banana",10.2);
+        fruitMap.put("Kiwi",105.2);
+        fruitMap.put("Orange",16.50);
+        fruitMap.put("Mango",10.2);
+        fruitMap.put("Banana",12.5);//duplicate values are overwritten last value is retained
+        System.out.println(fruitMap);
+        System.out.println(fruitMap.get("kiwI"));//case sensitive
+        fruitMap.remove("Mango");//removes mango
+        System.out.println(fruitMap);
+        System.out.println(fruitMap.containsKey("Kiwi"));//true
+        System.out.println(fruitMap.containsKey("Camel"));
+        System.out.println(fruitMap.containsValue(20.0));//true
+        System.out.println(fruitMap.isEmpty());//false
+        System.out.println(fruitMap.size());//prints size
+        fruitMap.replace("Banana",50.0);
+        System.out.println(fruitMap);
+
+    }
+}

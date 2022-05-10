@@ -1,0 +1,34 @@
+Review Class
+
+What is class in java?
+Template,blueprint,logical entity. Variables, fields, methods,
+
+objects can provides state, behavior
+Dynamic
+
+User defined methods vs built in methods
+
+Access modifiers allow us to control the visibility of class members
+(fields,methods,constructors, etc) and classes itself in Java
+
+There are 4 access levels and there are 3 keywords that we use to define these
+access level fourth level is applied when we dont use any access modifier keyword
+
+1)private(keyword is also private)
+2)default (nno keyword means default access level)
+3)protected(keyword is protected)
+4)public(keyword is also public)
+
+Rules:
+1)We should always prefer private access modifier for the fields.
+Because the fields contain the data and the methods of your class
+might use that data to perform some tasks if we dont perform sanity checks
+before setting the values to these fields our classes and methods might misbehave
+also the access of that data should be restricted so that not every one can
+access the datas.
+
+2)We cant use access modifiers with local variables/
+
+Constructors:
+Constructors in java allows us to set the values of the fields of a class.
+

@@ -1,0 +1,46 @@
+Encapsulation in Java:
+
+Encapsulation is hiding the class variables by making them private and providing them
+with getter setter methods.
+
+Benefits:
+    Better control over the data and security.
+Collections Framework:
+Collections framework is a collection of interfaces and classes which have many methods to store and
+manipulate the data.
+String name;
+String name1;
+String name2;
+String name3;
+String name4;
+String name5;
+
+String[] names=new String[10]//this will hold 10 names in the arrays
+
+Limitations of the array:
+    1)They are fixed in size once we have created an array we can't modify its size
+     2)Arrays don't have built-in methods.
+
+Collections
+    1)Dynamic in size, can increase and decrease size dynamically
+    2)They have builtin methods to manipulate the data.
+    3)Collections framework does not work with the primitive data types we
+    have to use wrapper classes.
+    4)When we convert the primitive data type to non primitive we call it boxing
+Boxing:
+int num=10;
+Integer wrapper=new Integer(num);//boxing
+Integer wrapper=num;  //autoboxing
+
+Double d=new Double(25.5);
+double num4=d.doubleValue(); //un-boxing
+double num5=d; //auto - un-boxing
+==========================================
+is multiple inheritance is allowed in java no technically but yes if you explain it
+as every class is by default multiple inheritance one is the object class which is inehrited by default
+and the other class that we write for the object
+
+In Java when we make a class inherit from another class, we are already doing multiple inheritance
+because Object class is automatically inherited for all the classes
+
+

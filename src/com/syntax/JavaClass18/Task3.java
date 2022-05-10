@@ -1,0 +1,14 @@
+package com.syntax.JavaClass18;
+//Create a method that will accept a String as a parameter and return
+// a new String that consist only of vowels. Method should be available
+// inside the class only where it was declared and executed by calling it is name.
+public class Task3 {
+    private static String onlyVowels(String input)
+    {
+        String newStr=input.replaceAll("[aeiouAEIOU]","");
+        return newStr;
+    }    public static void main(String[] args) {
+        //static methods can access other static methods and fields without needing
+        //an object of that class or the class name if they are inside the same class
+        System.out.println(onlyVowels("Andrew"));    }
+}

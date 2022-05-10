@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="" />
+    <mapping directory="$PROJECT_DIR$/src/com" vcs="" />
+    <mapping directory="$PROJECT_DIR$/src/com/syntax" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/com/syntax/JavaProject02" vcs="" />
+  </component>
+</project>

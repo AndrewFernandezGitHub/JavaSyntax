@@ -1,0 +1,50 @@
+Lists should be used when we have to store single elements as a collection
+    1)They maintain the insertion order.
+    2)They allow us to store the duplicate elements
+    3)They are Dynamic in size
+    4)data is stored based on indexes like arrays
+Two famous classes the implement List Interface are
+    1)ArrayList
+    2)LinkedList
+ArrayList
+    1)When most of the operations (70%-90%) are storing new data at the end of the list and readong
+    data no manipulation(adding or removing shifting data) of data then we shold go with Arraylist
+LinkedList
+    when most of the operations (70%-90%) are storing new data in-between or at the start
+    of the list then we should go with the linked list
+
+    In real life 90% times ArrayList is used
+
+Sets
+    Sets also store single values but they don't allow duplicate
+    1)HashSet 2)LinkedHashSet 3)TreeSet
+
+HashSet(90% of the time is is used in real life)
+    1)No Insertion order is maintained
+    2)Fastest when it comes to insertion and retrieval speed
+LinkedHashSet
+    1)Maintains the insertion order.
+    2)Insertion is slower than HasSet but faster than TreeSet
+    3)Retrieval is slowest
+TreeSet
+    1)Sorts the data in natural order
+Map
+    1)Map is data structure that can store the data in the form of key value pairs.
+    We can use any real life info as key for example SSN number, PhoneNumber
+    2)Searching in Maps is super fast
+1)HashMap 2)LinkedHadMap 3)TreeMap 4)HashTable
+
+HashMap
+    Fastest most widely used but does not maintain the insertion order
+LinkedHashMap
+    1)Maintains the insertion order
+    2)Slower than HashMap but faster than TreeMap
+    3)slowest of all four
+TreeMap
+    1)Data is stored in sorted form
+    2)insertion is slowest
+    3)Better than LinkedHashMap but slower than HashMap
+      FileHandling in Java:
+          Reading and writing data to files.
+
+

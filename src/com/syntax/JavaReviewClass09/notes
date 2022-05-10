@@ -1,0 +1,42 @@
+objects, methods, string manipulations(make sure i understand)
+
+When you have a class you can create as many objects as you want
+
+For examples. if we do class Doctor
+
+we want instance variable likes name, lastName, specialty(all objects in the class are instance
+variables)every object has its own variables.
+
+a static keyword could be hospital, which includes everything. each doctor would have its own copy
+of the instance variables. when you make the changes to each instance objects variables, they
+wont affect each other.
+
+WHen we talk about static variable, they can only be accessed through static method
+
+Static has one memory shared among all the instances
+static variable shares one memory, if you have 1000 instances sharing a static variable
+and you change the static variable in one object, it will change the static variable
+for all instances
+
+in this scenario of the doctors and hospitals, we can have methods also use return types
+
+static  method can be created with static key word
+
+make sure to know difference in return type vs non return type
+and void vs print
+
+methods must have return type, name, and parameters(behaviors)
+
+class variables and variables have methods
+
+Whenever we have instance variables, every instance or object gets
+its own set of variables(parameters)
+
+constructors are needed to initialize the instance variables or object
+
+local variable can not be accessed outside of the methods or block of code
+they are initialized in
+
+3 ways to overload a method
+
+for constructors, instead of repeating code for similar parameters

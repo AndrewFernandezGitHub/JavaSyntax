@@ -1,0 +1,55 @@
+Wrapper classes:
+they are object types for all the primitive types.When we use the wrapper classes
+we ger all the benefits of classes and objects for example we can have built in methods
+also generics work with only classes.
+
+The collections frameworks does not support primitives that is why we have wrapper class
+
+
+Boxing in Wrapper classes:
+boxing occurs when we convert a primitive to corresponding wrapper type.
+
+int num=10;
+Integer num2=new Integer(num)//boxing
+-unboxing happens when we convert a wrapper object to a corresponding primitive type
+like taking the candy out of the wrapper
+
+Integer num2=new Integer(10)
+int num=num2.intValue();
+
+Integer num=10;//autoboxing
+int num2=num;//auto unboxing
+
+List(it is an interface in collections frame which is implemented by two classes)
+applies to ArrayList and LinkedList
+
+1)we can store the duplicate values in lists.
+2)insertion order is maintained.
+
+When to use ArrayList:
+
+if most of the operations are reading and storing new data and not shifting
+or changing the position of data then we should go with array list.
+
+When to use LinkedList:
+
+when most of the operations are related to changin the position of data or related to
+data shifting then we should go with linkedlist
+
+List is one of the most used collections
+
+never use a loop for a list if you are changing its size
+
+all loops have problems with list if you are changing size of list
+
+Three types of sets
+
+HashSet-class that implements Set interface. It does not allow duplicates and does
+not guarantee any insertion orders. It allows null elements
+
+LinkedHashSet-class that implements Set interface. It does not allow duplicates
+and orders its elements based on order in which they were inserted.
+
+TreeSet-is similar to
+
+know the difference between index based and non index based datastructures
